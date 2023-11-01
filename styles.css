@@ -1,0 +1,150 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #1d1e22;
+    font-family: "Poiret One";
+    color: #d4d4dc;
+}
+
+nav {
+    background-color: #393f4d;
+    margin: 0 5% 0 5%;
+    height: 54%;
+}
+
+ul.informationList {
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    padding-top: 10%;
+    height: 70%;
+}
+
+ul.informationList > li {
+    background-color: #d4d4dc4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    margin: 5% 5% 5% 5%;
+    height: 15%;
+}
+
+ul.iconLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    padding-bottom: 10%;
+}
+
+ul.iconLinks > li {
+    width: 30%;
+}
+
+ul.iconLinks > li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #d4d4dc;
+    text-decoration: none;
+}
+
+
+.outsideContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContainer{
+    background-color: #393f4d;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.leftContainer {
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+} 
+
+.pfpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.myPfp {
+    width: 60%;
+    border-radius: 10%;
+}
+
+.name {
+    font-size: 5vh;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.5vh;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.about {
+    height: 100vh;
+}
+
+.projects {
+    height: 50vh;
+}
+
+.relevantCourses {
+    height: 100vh;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.aboutText {
+    font-size: 3.70em;
+    margin: 5% 5% 0%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+    background-color: #d4d4dc4b;
+    margin: 5% 5% 5% 5%;
+    border-radius: 10%;
+    font-size: 5vh;
+}
+
+.courseText {
+    font-size: 2vh;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.courseText > h2 {
+    font-size: 2.5vh;
+}
