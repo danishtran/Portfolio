@@ -116,8 +116,8 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .aboutText {
-    font-size: 3.70em;
-    margin: 5% 5% 0%;
+    font-size: 3.5em;
+    padding: 5%;
 }
 
 .row {
