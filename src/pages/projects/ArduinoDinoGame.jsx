@@ -76,7 +76,7 @@ export default function ArduinoDinoGame() {
               }}
             >
               <img
-                src="/images/arduinoDinoHorizontal.jpg"
+                src="images/arduinoDinoHorizontal.jpg"
                 alt="Arduino Dino Game"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />

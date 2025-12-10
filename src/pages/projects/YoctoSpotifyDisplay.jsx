@@ -76,7 +76,7 @@ export default function YoctoSpotifyDisplay() {
               }}
             >
               <img
-                src="/images/yoctoSpotifyHorizontal.jpg"
+                src="images/yoctoSpotifyHorizontal.jpg"
                 alt="Yocto Spotify Display"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />

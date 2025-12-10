@@ -76,7 +76,7 @@ export default function Esp32WeatherStation() {
               }}
             >
               <img
-                src="/images/esp32WeatherStation.jpg"
+                src="images/esp32WeatherStation.jpg"
                 alt="ESP32 Weather Station"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />

@@ -76,7 +76,7 @@ export default function RfidSpotifyPlayer() {
               }}
             >
               <img
-                src="/images/rfidSpotifyHorizontal.jpg"
+                src="images/rfidSpotifyHorizontal.jpg"
                 alt="RFID Spotify Player"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />

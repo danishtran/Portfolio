@@ -53,7 +53,7 @@ export default function Home() {
             alignItems="center"
           >
             <Avatar
-              src="/images/profile.jpg"
+              src="images/profile.jpg"
               alt="Profile picture"
               sx={{
                 width: { xs: "40vw", sm: "32vw", md: "22vw", lg: "18vw" },

@@ -7,28 +7,28 @@ const projects = [
     id: "esp32-weather-station",
     title: "ESP32 Weather Station",
     shortDescription: 'ESP32-based IoT weather station with local display, web UI, and cloud backend.',
-    image: "/images/esp32-weather.jpg",
+    image: "images/esp32-weather.jpg",
     githubUrl: "https://github.com/danishtran/esp32-weather-station"
   },
   {
     id: "yocto-spotify-display",
     title: "Yocto Spotify Display",
     shortDescription: "Spotify 'now playing' display built with Yocto Linux.",
-    image: "/images/yoctoSpotify.jpg",
+    image: "images/yoctoSpotify.jpg",
     githubUrl: "https://github.com/danishtran/spotifyDisplay"
   },
   {
     id: "arduino-dino-game",
     title: "Arduino Dino Game",
     shortDescription: "Portable ATmega328P handheld running a custom Dino Game.",
-    image: "/images/arduinoDino.jpg",
+    image: "images/arduinoDino.jpg",
     githubUrl: "https://github.com/danishtran/arduinoDinoGame"
   },
   {
     id: "rfid-spotify-player",
     title: "RFID Spotify Player",
     shortDescription: "RFID Spotify playback controller.",
-    image: "/images/rfidSpotify.jpg",
+    image: "images/rfidSpotify.jpg",
     githubUrl: "https://github.com/danishtran/rfidSpotifyPlayer"
   }
 ];

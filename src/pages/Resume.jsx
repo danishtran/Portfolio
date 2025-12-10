@@ -37,7 +37,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/files/resume.pdf"
+            src="files/resume.pdf"
             style={{
               width: "100%",
               height: "100%",
@@ -49,7 +49,7 @@ export default function Resume() {
         <Button
           variant="contained"
           color="secondary"
-          href="/files/resume.pdf"
+          href="files/resume.pdf"
           download
           sx={{
             mt: 2,
