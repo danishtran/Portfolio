@@ -1,6 +1,7 @@
 import { Box, Typography, Button, Stack, IconButton } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import NavBar from "../../components/Navbar";
+import { Link as RouterLink } from "react-router-dom";
 
 export default function RfidSpotifyPlayer() {
   return (
@@ -21,7 +22,8 @@ export default function RfidSpotifyPlayer() {
       >
         <Button
           variant="outlined"
-          href="/projects"
+          component={RouterLink}
+          to="/projects"
           sx={{
             mb: 4,
             textTransform: "none",
@@ -97,7 +99,7 @@ export default function RfidSpotifyPlayer() {
               }}
             >
               <video
-                src="/videos/rfid-spotify-player.mp4"
+                src="videos/rfidSpotifyVideo.mov"
                 controls
                 style={{ width: "100%", borderRadius: "8px" }}
               />

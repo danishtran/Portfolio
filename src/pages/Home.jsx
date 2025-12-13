@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-import { Box, Typography, Stack, Avatar, IconButton } from "@mui/material";
+import { useLocation,  Link as RouterLink } from "react-router-dom";
+import { Box, Typography, Stack, Avatar, IconButton, Button } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
@@ -91,7 +91,7 @@ export default function Home() {
                   color: "rgba(255,255,255,0.7)",
                 }}
               >
-                I'm a recent graduate Software Engineer B.S. from the UC Irvine. I am interested in building embedded systems and software and iot devices.
+                I'm a recent Software Engineer B.S. graduate from the UC Irvine. I am interested in building embedded systems and software and IOT devices.
               </Typography>
             </Stack>
           </Stack>
@@ -143,12 +143,54 @@ export default function Home() {
                   color: "rgba(255,255,255,0.75)",
                 }}
               >
-                I enjoy taking building useful projects that help solve issues I have in my daily life.
-                I’m currently looking for opportunities where I can work on embedded software, firmware, or IoT systems.
+                I enjoy taking building useful projects that help solve problems I run into in my everyday life.
+                I’m currently looking for opportunities to work on embedded software, firmware, or IoT systems.
                 <br/><br/>
-                Outside of the computer, I like find new restaurants, exploring new cities, photography, woodwork and playing games.
+                Away from the computers, I like discovering new restaurants, exploring new cities, doing landscape photography, woodworking and playing games.
               </Typography>
             </Stack>
+
+            <Button
+              component={RouterLink}
+              to="/projects"
+              variant="outlined"
+              sx={{
+                alignSelf: { xs: "center", md: "flex-start" },
+                borderColor: "rgba(0, 230, 118, 0.8)",
+                color: "#00e676",
+                textTransform: "none",
+                px: 3,
+                py: 1,
+                fontWeight: 600,
+                ":hover": {
+                  borderColor: "#00e676",
+                  backgroundColor: "rgba(0, 230, 118, 0.12)",
+                },
+              }}
+            >
+              View Projects
+            </Button>
+
+            <Button
+              component={RouterLink}
+              to="/resume"
+              variant="outlined"
+              sx={{
+                alignSelf: { xs: "center", md: "flex-start" },
+                borderColor: "rgba(0, 230, 118, 0.8)",
+                color: "#00e676",
+                textTransform: "none",
+                px: 3,
+                py: 1,
+                fontWeight: 600,
+                ":hover": {
+                  borderColor: "#00e676",
+                  backgroundColor: "rgba(0, 230, 118, 0.12)",
+                },
+              }}
+            >
+              Resume
+            </Button>
 
             <Stack spacing={2}>
               <Typography

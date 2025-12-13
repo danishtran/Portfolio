@@ -7,7 +7,7 @@ const projects = [
     id: "esp32-weather-station",
     title: "ESP32 Weather Station",
     shortDescription: 'ESP32-based IoT weather station with local display, web UI, and cloud backend.',
-    image: "images/esp32-weather.jpg",
+    image: "images/esp32WeatherStation.jpg",
     githubUrl: "https://github.com/danishtran/esp32-weather-station"
   },
   {

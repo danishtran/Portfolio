@@ -1,6 +1,7 @@
 import { Box, Typography, Button, Stack, IconButton } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import NavBar from "../../components/Navbar";
+import { Link as RouterLink } from "react-router-dom";
 
 export default function Esp32WeatherStation() {
   return (
@@ -21,7 +22,8 @@ export default function Esp32WeatherStation() {
       >
         <Button
           variant="outlined"
-          href="/projects"
+          component={RouterLink}
+          to="/projects"
           sx={{
             mb: 4,
             textTransform: "none",
@@ -76,7 +78,7 @@ export default function Esp32WeatherStation() {
               }}
             >
               <img
-                src="images/esp32WeatherStation.jpg"
+                src="images/esp32WeatherStationHorizontal.jpg"
                 alt="ESP32 Weather Station"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
@@ -97,7 +99,7 @@ export default function Esp32WeatherStation() {
               }}
             >
               <video
-                src="/videos/rfid-spotify-player.mp4"
+                src="videos/esp32WeatherStationVideo.mov"
                 controls
                 style={{ width: "100%", borderRadius: "8px" }}
               />
